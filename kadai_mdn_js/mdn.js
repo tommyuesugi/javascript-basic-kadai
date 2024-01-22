@@ -1,8 +1,8 @@
-const dateName = new Date([2022, 8, 22]);
+const dateName = new Date();
 
 const year = dateName.getFullYear();
 const month = dateName.getMonth()+1;
-const day = dateName.getDate();
+const date = dateName.getDate();
 
 
-console.log(year + '年' + month + '月' + day + '日')
+console.log(year + '年' + month + '月' + date + '日')
